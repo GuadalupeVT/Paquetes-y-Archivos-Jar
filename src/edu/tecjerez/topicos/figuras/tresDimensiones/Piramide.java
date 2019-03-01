@@ -1,7 +1,6 @@
 package edu.tecjerez.topicos.figuras.tresDimensiones;
 
 import edu.tecjerez.topicos.figuras.Triangulo;
-import edu.tecjerez.topicos.geometria.Punto;
 
 public class Piramide {
 
