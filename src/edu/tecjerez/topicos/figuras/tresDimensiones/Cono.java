@@ -3,7 +3,7 @@ package edu.tecjerez.topicos.figuras.tresDimensiones;
 import edu.tecjerez.topicos.figuras.dosDimensiones.conicos.Circulo;
 
 public class Cono {
-	protected double areaBase(double radio) {
+	double areaBase(double radio) {
 		Circulo c=new Circulo();
 		return c.area(radio);
 	}
@@ -17,6 +17,6 @@ public class Cono {
 	}
 	
 	public double areaTotal (double radio,double g) {
-		return areaBase(radio)+areaTotal(radio, g);
+		return areaBase(radio) +areaLateral(radio, g);
 	}
 }

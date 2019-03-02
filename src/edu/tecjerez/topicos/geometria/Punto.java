@@ -13,5 +13,5 @@ public class Punto {
 }
 
 class PuntoPrueba{ //modificador de acceso 
-	double x=new Punto().obtenerDistancia(new Punto(), new Punto());
+	//double x=new Punto().obtenerDistancia(new Punto(), new Punto());
 }

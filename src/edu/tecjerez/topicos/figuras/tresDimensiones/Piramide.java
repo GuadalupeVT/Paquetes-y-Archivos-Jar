@@ -12,7 +12,7 @@ public class Piramide {
 		return (a.area(lado1,lado2,lado3)*4);
 	}
 	
-	double voulumen (double lado, double altura) {
+	public double volumen (double lado, double altura) {
 		return (areaBase(lado)*altura)/3;
 	}
 	public double areaTotal(double lado1,double lado2,double lado3, double base) {
